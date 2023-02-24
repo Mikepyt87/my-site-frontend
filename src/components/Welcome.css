@@ -26,30 +26,33 @@
 .name {
   width: 60vw;
   height: 60vh;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
   overflow: visible;
 }
 
 .enter {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.welcome {
+/* .welcome {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 3.5vw;
-
   color: gold;
-}
+} */
 
-.enterLink {
+.personalPortfolioLink,
+.professionalServicesLink,
+.bar {
+  display: flex;
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   text-decoration: none;
-  font-size: 1.5vw;
+  font-size: 2.5vw;
   color: white;
+  padding: 0.5vw;
 }
 
 @media screen and (max-width: 720px) {
