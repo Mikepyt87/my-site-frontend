@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
-const GateKeeper = () => {
+import React from "react";
+
+const GateKeeper: React.FC = () => {
   return (
     <div className="enter">
       {/* <h1 className="welcome">Welcome</h1> */}

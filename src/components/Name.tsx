@@ -1,5 +1,7 @@
 import name from "../assets/name-01.svg";
-const Name = () => {
+import React from "react";
+
+const Name: React.FC = () => {
   return <img src={name} alt="name" className="name" />;
 };
 
