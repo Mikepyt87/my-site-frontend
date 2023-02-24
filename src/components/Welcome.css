@@ -65,7 +65,9 @@
     font-size: 4.5vw;
   }
 
-  .enterLink {
+  .personalPortfolioLink,
+  .professionalServicesLink,
+  .bar {
     font-size: 2.5vw;
   }
 }
