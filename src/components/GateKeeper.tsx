@@ -6,7 +6,7 @@ const GateKeeper: React.FC = () => {
     <div className="enter">
       {/* <h1 className="welcome">Welcome</h1> */}
       <h3 className="enterPersonalPortfolio">
-        <Link className="personalPortfolioLink" to="/personal-portfolio">
+        <Link className="personalPortfolioLink" to="/personal-page">
           Personal Portfolio
         </Link>
       </h3>

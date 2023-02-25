@@ -1,3 +1,9 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
 .navbar-links {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
@@ -10,10 +16,21 @@
   padding-bottom: 2vh;
   border-bottom: 2px solid black;
 }
-a {
+.navbar a {
   text-decoration: none;
   color: black;
+  text-shadow: 2px 2px 8px white;
 }
+.navbar-links li a {
+}
+
+.personalTop img {
+  width: 100vw;
+}
+.personalTopContainer {
+  position: relative;
+}
+
 @media screen and (max-width: 720px) {
   .navbar-links {
     font-size: 2.5vh;
