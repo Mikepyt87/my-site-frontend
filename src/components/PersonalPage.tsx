@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
 import PersonalTop from "./PersonalTop";
-import personalBackgroundTop from "../assets/personalBackgroundTop.jpg";
 import "./PersonalPage.css";
 
 const PersonalPage: React.FC = () => (
