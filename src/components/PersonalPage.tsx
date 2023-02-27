@@ -7,10 +7,10 @@ import personalBackgroundTop from "../assets/personalBackgroundTop.jpg";
 const Landing: React.FC = () => {
   return (
     <div className="personalPage">
+      <Navbar />
       <div className="personalTopContainer">
         <PersonalTop imageUrl={personalBackgroundTop} />
       </div>
-      <Navbar />
     </div>
   );
 };
