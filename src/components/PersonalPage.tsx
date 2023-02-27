@@ -8,7 +8,7 @@ const PersonalPage: React.FC = () => (
   <div className="personalPage">
     <Navbar />
     <div className="personalTopContainer">
-      <PersonalTop imageUrl={personalBackgroundTop} />
+      <PersonalTop />
     </div>
   </div>
 );
