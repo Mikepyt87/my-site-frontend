@@ -1,4 +1,4 @@
-import welcomePageVideo from "../assets/welcomePageVideo3.mp4";
+import welcomePageVideo from "../assets/welcomePageVideoWithName.mp4";
 
 const BackgroundVideo = () => (
   <video

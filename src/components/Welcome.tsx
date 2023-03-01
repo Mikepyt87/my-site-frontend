@@ -8,10 +8,7 @@ const Main: React.FC = () => {
   return (
     <div className="Main">
       <BackgroundVideo />
-      <section className="content">
-        <Name />
-        <GateKeeper />
-      </section>
+      <GateKeeper />
     </div>
   );
 };

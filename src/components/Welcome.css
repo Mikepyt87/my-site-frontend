@@ -1,73 +1,44 @@
-.main {
+.Main {
+  display: flex;
+  justify-content: center;
   font-family: "Poppins", sans-serif;
   width: 100vw;
   height: 100vh;
 }
 
 .welcomePageVideo {
+  display: flex;
   width: 100vw;
   height: 100vh;
   object-fit: cover;
 }
 
-.content {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  overflow: visible;
-}
-
-.name {
-  width: 60vw;
-  height: 60vh;
-  padding-bottom: 5%;
-  overflow: visible;
-}
-
 .enter {
+  width: 100vw;
+  position: absolute;
+  left: -2vw;
+  bottom: 20vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-/* .welcome {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 3.5vw;
-  color: gold;
-} */
 
 .personalPortfolioLink,
 .professionalServicesLink,
 .bar {
-  display: flex;
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   text-decoration: none;
-  font-size: 2.5vw;
+  font-size: 3.5vh;
   color: white;
   padding: 0.5vw;
 }
 
 @media screen and (max-width: 720px) {
-  .name {
-    width: 70vw;
-    height: 70vh;
-  }
-
-  .welcome {
-    font-size: 4.5vw;
-  }
-
   .personalPortfolioLink,
   .professionalServicesLink,
   .bar {
-    font-size: 2.5vw;
+    font-size: 4vw;
   }
 }
