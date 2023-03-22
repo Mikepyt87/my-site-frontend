@@ -1,15 +1,38 @@
 import React from "react";
+import Calculator from "./Calculator/Calculator";
 import Navbar from "./Navbar";
-import PersonalTop from "./PersonalTop";
 import "./PersonalPage.css";
+import ResponsiveTabNavigation from "./ResponsiveTabNavigation";
+// import StepCalculator from "./StepCalculator/StepCalculator";
 
-const PersonalPage: React.FC = () => (
-  <div className="personalPage">
-    <Navbar />
-    <div className="personalTopContainer">
-      <PersonalTop />
+const tabs = [
+  {
+    label: "Simple Calculator",
+    content: (
+      <div className="calc-wrapper">
+        <Calculator />
+      </div>
+    ),
+  },
+  {
+    label: "3DP Step-Calc",
+    content: (
+      <div className="step-calc-wrapper">{/* <StepCalculator /> */}</div>
+    ),
+  },
+  {
+    label: "Tab 3",
+    content: <div>Content for Tab 3</div>,
+  },
+];
+
+const PersonalPage: React.FC = () => {
+  return (
+    <div className="personal-page">
+      <Navbar />
+      <ResponsiveTabNavigation tabs={tabs} />
     </div>
-  </div>
-);
+  );
+};
 
 export default PersonalPage;

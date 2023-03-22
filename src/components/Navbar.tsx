@@ -1,71 +1,31 @@
-import React, { useState, useRef } from "react";
-import { Link } from "react-router-dom";
+// Navbar.tsx
+import React, { useState } from "react";
 import "./Navbar.css";
 
-function Navbar() {
-  const [activeLink, setActiveLink] = useState<string>("Home");
-  const aboutRef = useRef<HTMLDivElement>(null);
-  const socialMediaRef = useRef<HTMLDivElement>(null);
+interface NavbarProps {}
 
-  const handleLinkClick = (link: string) => {
-    setActiveLink(link);
-  };
+const Navbar: React.FC<NavbarProps> = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const handleScroll = (ref: React.RefObject<HTMLDivElement>) => {
-    if (ref.current) {
-      ref.current.scrollIntoView({ behavior: "smooth" });
-      setActiveLink("About");
-    }
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
   };
 
   return (
-    <header className="glass-navbar">
-      <nav>
-        <ul className="glass-navbar-links">
-          <li>
-            <Link
-              to="/"
-              className={activeLink === "Home" ? "active" : ""}
-              onClick={() => handleLinkClick("Home")}
-            >
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link
-              to=""
-              className={activeLink === "About" ? "active" : ""}
-              onClick={() => handleScroll(aboutRef)}
-            >
-              About
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/portfolio"
-              className={activeLink === "Portfolio" ? "active" : ""}
-              onClick={() => handleLinkClick("Portfolio")}
-            >
-              Portfolio
-            </Link>
-          </li>
-          <li>
-            <Link
-              to=""
-              className={activeLink === "socialMedia" ? "active" : ""}
-              onClick={() => handleScroll(socialMediaRef)}
-            >
-              Social Media
-            </Link>
-          </li>
-        </ul>
-      </nav>
-      <div className="references">
-        <div ref={aboutRef} id="about" />
-        <div ref={socialMediaRef} id="socialMedia" />
-      </div>
-    </header>
+    <nav className="navbar">
+      <div className="navbar-brand"></div>
+      <button className="hamburger-menu" onClick={toggleMenu}>
+        {isMenuOpen ? "✖" : "☰"}
+      </button>
+      {isMenuOpen && (
+        <div className="navbar-menu">
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/contact">Contact</a>
+        </div>
+      )}
+    </nav>
   );
-}
+};
 
-export default React.memo(Navbar);
+export default Navbar;

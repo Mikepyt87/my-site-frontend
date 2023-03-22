@@ -1,0 +1,42 @@
+/* ResponsiveTabNavigation.css */
+.tab-navigation {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-top: 4px solid #f4f4f4;
+  height: 92vh;
+}
+
+.tab-navigation-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #333;
+}
+
+.tab-navigation-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.tab-navigation-button.active {
+  background-color: #444;
+}
+
+.tab-navigation-content {
+  height: 100%;
+  padding: 1rem;
+}
+
+@media (max-width: 600px) {
+  .tab-navigation-button {
+    font-size: 0.8rem;
+  }
+}

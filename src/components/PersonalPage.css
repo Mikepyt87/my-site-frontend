@@ -1,32 +1,3 @@
-.glass-navbar {
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 1;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  box-shadow: 2px 2px 5px black;
-}
-
-.glass-navbar-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  list-style: none;
-  margin-top: 2vh;
-  padding-bottom: 2vh;
-  border-bottom: 4px solid lightgray;
-}
-
-.glass-navbar a {
-  text-decoration: none;
-  color: white;
-  text-shadow: 2px 2px 5px black;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 2vh;
-}
-
 .personalTop video {
   width: 100vw;
   border-bottom: 5px solid black;
@@ -37,8 +8,18 @@
   position: relative;
 }
 
-@media screen and (max-width: 720px) {
-  .glass-navbar-links {
-    font-size: 2.5vh;
-  }
+.personal-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.calc-wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }

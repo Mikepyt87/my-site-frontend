@@ -1,0 +1,114 @@
+/* Calculator.css */
+.calculator {
+  display: inline-block;
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.calculator-display {
+  width: 95%;
+  margin-bottom: 0.5rem;
+  text-align: right;
+  padding: 0.25rem;
+  font-size: 1.25rem;
+}
+
+.calculator-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5rem;
+}
+
+.calculator-buttons button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.calculator-buttons button:hover {
+  background-color: #eee;
+}
+
+/* Position the buttons correctly */
+.calculator-buttons button:nth-child(1) {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.calculator-buttons button:nth-child(2) {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.calculator-buttons button:nth-child(3) {
+  grid-row: 1;
+  grid-column: 3;
+}
+
+.calculator-buttons button:nth-child(4) {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.calculator-buttons button:nth-child(5) {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.calculator-buttons button:nth-child(6) {
+  grid-row: 2;
+  grid-column: 3;
+}
+
+.calculator-buttons button:nth-child(7) {
+  grid-row: 3;
+  grid-column: 1;
+}
+
+.calculator-buttons button:nth-child(8) {
+  grid-row: 3;
+  grid-column: 2;
+}
+
+.calculator-buttons button:nth-child(9) {
+  grid-row: 3;
+  grid-column: 3;
+}
+
+.calculator-buttons button:nth-child(10) {
+  grid-row: 4;
+  grid-column: 2;
+}
+
+.calculator-buttons button:nth-child(11) {
+  grid-row: 1;
+  grid-column: 4;
+}
+
+.calculator-buttons button:nth-child(12) {
+  grid-row: 2;
+  grid-column: 4;
+}
+
+.calculator-buttons button:nth-child(13) {
+  grid-row: 3;
+  grid-column: 4;
+}
+
+.calculator-buttons button:nth-child(14) {
+  grid-row: 4;
+  grid-column: 4;
+}
+
+.calculator-buttons button:nth-child(15) {
+  grid-row: 4;
+  grid-column: 1;
+}
+
+.calculator-buttons button:nth-child(16) {
+  grid-row: 4;
+  grid-column: 3;
+}
