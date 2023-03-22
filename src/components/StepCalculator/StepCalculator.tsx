@@ -4,14 +4,14 @@ import styles from "./StepCalculator.module.css";
 interface StepCalculatorProps {}
 
 interface StepCalculatorState {
-  stepsPerMillimeter: number;
+  currentStepsPerMillimeter: number;
   desiredDistance: number;
   currentDistance: number;
 }
 
 const StepCalculator: React.FC<StepCalculatorProps> = () => {
   const [state, setState] = useState<StepCalculatorState>({
-    stepsPerMillimeter: 0,
+    currentStepsPerMillimeter: 0,
     desiredDistance: 0,
     currentDistance: 0,
   });
@@ -25,9 +25,10 @@ const StepCalculator: React.FC<StepCalculatorProps> = () => {
   };
 
   const calculateSteps = (): number => {
-    const { stepsPerMillimeter, desiredDistance, currentDistance } = state;
+    const { currentStepsPerMillimeter, desiredDistance, currentDistance } =
+      state;
     const distanceToMove = desiredDistance - currentDistance;
-    return stepsPerMillimeter * distanceToMove;
+    return currentStepsPerMillimeter * distanceToMove;
   };
 
   return (
@@ -39,7 +40,7 @@ const StepCalculator: React.FC<StepCalculatorProps> = () => {
           <input
             type="number"
             name="stepsPerMillimeter"
-            value={state.stepsPerMillimeter}
+            value={state.currentStepsPerMillimeter}
             onChange={handleChange}
           />
         </label>
