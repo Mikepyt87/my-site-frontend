@@ -2,6 +2,8 @@ import React from "react";
 import Calculator from "./Calculator/Calculator";
 import Navbar from "./Navbar";
 import "./PersonalPage.css";
+import Quiz from "./Quiz/Quiz";
+
 import ResponsiveTabNavigation from "./ResponsiveTabNavigation";
 // import StepCalculator from "./StepCalculator/StepCalculator";
 
@@ -15,14 +17,16 @@ const tabs = [
     ),
   },
   {
-    label: "3DP Step-Calc",
+    label: "Quiz App",
     content: (
-      <div className="step-calc-wrapper">{/* <StepCalculator /> */}</div>
+      <div className="quiz-app-wrapper">
+        <Quiz />
+      </div>
     ),
   },
   {
-    label: "Tab 3",
-    content: <div>Content for Tab 3</div>,
+    label: "tomorrow",
+    content: <div>tomorrow works</div>,
   },
 ];
 

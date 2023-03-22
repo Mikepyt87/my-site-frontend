@@ -15,7 +15,8 @@
   height: 100%;
 }
 
-.calc-wrapper {
+.calc-wrapper,
+.quiz-app-wrapper {
   height: 100%;
   display: flex;
   justify-content: center;
