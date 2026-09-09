@@ -25,3 +25,13 @@ yarn-error.log*
 
 *.mp4
 *.mov
+# Firebase deployment caches and logs
+.firebase/
+firebase-debug*.log
+
+# Public portfolio videos
+!/portfolio-public/assets/media/*.mp4
+
+# Temporary credentials created by GitHub authentication action
+gha-creds-*.json
+ui-debug.log
