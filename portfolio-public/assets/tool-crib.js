@@ -10,6 +10,7 @@
  const search=document.getElementById('tc-search');
  const setting=document.getElementById('tc-setting');
  const status=document.getElementById('tc-status');
+ const projectFilter=document.getElementById('tc-project');
  const empty=document.getElementById('tc-empty');
  const favorites=document.getElementById('tc-favorites');
  const resultCount=document.getElementById('tc-result-count');
@@ -73,7 +74,7 @@ function card(t){
  const detailId='tc-detail-'+t.id;
  const check='';
  const extras=t.secondaryUrl?`<p class="tc-secondary"><a href="${safe(t.secondaryUrl)}" target="_blank" rel="noopener noreferrer">${safe(t.secondaryLabel||'Additional reference')} &#8599;</a></p>`:'';
- return `<article class="tc-card${t.visible===false?' tc-card-hidden':''}" id="tool-${safe(t.id)}" data-tool-id="${safe(t.id)}"><details class="tc-details" id="${safe(detailId)}"><summary><span class="tc-chevron" aria-hidden="true"></span><div class="tc-summary-content"><h3>${safe(t.name)}${t.favorite?'<span class="tc-star" title="Personal favorite" aria-label="Personal favorite">&#9733;</span>':''}</h3><div class="tc-row-meta">${t.model?`<span>${safe(t.model)}</span>`:''}<span class="tc-badge tc-badge-${safe(t.status)}">${safe(statuses.get(t.status))}</span>${t.quantity!=null?`<span>Qty: <strong>${safe(t.quantity)}</strong></span>`:''}</div></div></summary><div class="tc-detail-content"><p class="tc-detail-setting">${safe(settings.get(t.setting))}${t.favorite?' / Personal favorite':''}</p>${t.notes?`<p class="tc-description">${safe(t.notes)}</p>`:''}${links?`<span class="tc-link-label">Connected projects</span><div class="tc-projects">${links}</div>`:''}${extras}</div></details><div class="tc-row-actions">${t.referenceUrl?`<a class="tc-reference" href="${safe(t.referenceUrl)}" ${t.referenceUrl.startsWith('projects/')?'':'target="_blank" rel="noopener noreferrer"'}>${safe(t.referenceLabel||'Reference')} &#8599;</a>${check}`:''}${!original.ownerEditing?'':`<button class="tc-edit-button" data-edit="${safe(t.id)}" type="button" aria-label="Edit ${safe(t.name)}">Edit</button>`}</div></article>`;
+ return `<article class="tc-card${t.visible===false?' tc-card-hidden':''}" id="tool-${safe(t.id)}" data-tool-id="${safe(t.id)}"><details class="tc-details" id="${safe(detailId)}"><summary><span class="tc-chevron" aria-hidden="true"></span><div class="tc-summary-content"><h3>${safe(t.name)}${t.favorite?'<span class="tc-star" title="Personal favorite" aria-label="Personal favorite">&#9733;</span>':''}</h3><div class="tc-row-meta">${t.model?`<span>${safe(t.model)}</span>`:''}<span class="tc-badge tc-badge-${safe(t.status)}">${safe(statuses.get(t.status))}</span>${t.quantity!=null?`<span>Qty: <strong>${safe(t.quantity)}</strong></span>`:''}${t.projects.length?`<span class="tc-use-count">Used on ${t.projects.length} ${t.projects.length===1?'project':'projects'}</span>`:''}</div></div></summary><div class="tc-detail-content"><p class="tc-detail-setting">${safe(settings.get(t.setting))}${t.favorite?' / Personal favorite':''}</p>${t.notes?`<p class="tc-description">${safe(t.notes)}</p>`:''}${links?`<span class="tc-link-label">Used on these projects</span><div class="tc-projects">${links}</div>`:''}${extras}</div></details><div class="tc-row-actions">${t.referenceUrl?`<a class="tc-reference" href="${safe(t.referenceUrl)}" ${t.referenceUrl.startsWith('projects/')?'':'target="_blank" rel="noopener noreferrer"'}>${safe(t.referenceLabel||'Reference')} &#8599;</a>${check}`:''}${!original.ownerEditing?'':`<button class="tc-edit-button" data-edit="${safe(t.id)}" type="button" aria-label="Edit ${safe(t.name)}">Edit</button>`}</div></article>`;
 }
  function render(){
   results.innerHTML=original.categories.map(c=>`<section class="tc-group" id="tc-${safe(c.id)}" data-tool-group="${safe(c.id)}"><div class="tc-group-header"><div><h2>${safe(c.name)}</h2><p>${safe(c.intro)}</p></div><span class="tc-group-count"></span></div><div class="tc-grid">${inventory.tools.filter(t=>t.category===c.id).map(card).join('')}</div></section>`).join('');
@@ -87,7 +88,8 @@ function card(t){
   for(const c of results.querySelectorAll('[data-tool-id]')){
    const t=byId.get(c.dataset.toolId);
    const text=norm([t.name,t.brand,t.model,t.notes,t.referenceLabel,...t.projects.map(p=>projectMap.get(p))].join(' '));
-   const yes=(editing||t.visible!==false)&&(!favorites.checked||t.favorite===true)&&(setting.value==='all'||setting.value===t.setting)&&(status.value==='all'||status.value===t.status)&&tokens.every(k=>text.includes(k));
+   const projectMatches=projectFilter.value==='all'||(projectFilter.value==='none'?t.projects.length===0:t.projects.includes(projectFilter.value));
+   const yes=(editing||t.visible!==false)&&(!favorites.checked||t.favorite===true)&&(setting.value==='all'||setting.value===t.setting)&&(status.value==='all'||status.value===t.status)&&projectMatches&&tokens.every(k=>text.includes(k));
    c.hidden=!yes;if(yes)count++;
   }
   for(const g of results.querySelectorAll('[data-tool-group]')){
@@ -95,7 +97,8 @@ function card(t){
    g.querySelector('.tc-group-count').textContent=n+(n===1?' entry':' entries');
    const a=document.querySelector('[data-tool-jump="'+g.dataset.toolGroup+'"]');a.hidden=n===0;a.querySelector('span').textContent=n;
   }
-  resultCount.textContent=count+(count===1?' entry':' entries')+' in '+groupCount+(groupCount===1?' section':' sections');empty.hidden=count>0;
+  const projectName=projectFilter.value==='all'?'':projectFilter.value==='none'?'No documented project':projectMap.get(projectFilter.value);
+  resultCount.textContent=count+(count===1?' entry':' entries')+' in '+groupCount+(groupCount===1?' section':' sections')+(projectName?' for '+projectName:'');empty.hidden=count>0;
  }
  function setDetailView(expanded){
   allDetails=expanded;
@@ -109,19 +112,20 @@ function card(t){
   if(!hash||!hash.startsWith('#tool-'))return;
   const el=document.getElementById(decodeURIComponent(hash.slice(1)));
   if(!el||!el.matches('[data-tool-id]'))return;
-  if(el.hidden){search.value='';setting.value='all';status.value='all';favorites.checked=false;apply();}
+  if(el.hidden){search.value='';setting.value='all';status.value='all';projectFilter.value='all';favorites.checked=false;apply();}
   const detail=el.querySelector('details');if(detail)detail.open=true;
   el.scrollIntoView({block:'center'});
  }
  root.addEventListener('click',e=>{const a=e.target.closest('a[href^="#tool-"]');if(a){e.preventDefault();showTool(a.getAttribute('href'));}});
  window.addEventListener('hashchange',()=>showTool(location.hash));
  $('tc-filter-form').addEventListener('submit',e=>{e.preventDefault();apply();});
- search.addEventListener('input',apply);setting.addEventListener('change',apply);status.addEventListener('change',apply);favorites.addEventListener('change',apply);
- $('tc-reset').addEventListener('click',()=>{search.value='';setting.value='all';status.value='all';favorites.checked=false;apply();search.focus();});
+ search.addEventListener('input',apply);setting.addEventListener('change',apply);status.addEventListener('change',apply);projectFilter.addEventListener('change',apply);favorites.addEventListener('change',apply);
+ $('tc-reset').addEventListener('click',()=>{search.value='';setting.value='all';status.value='all';projectFilter.value='all';favorites.checked=false;apply();search.focus();});
  if(params.get('favorites')==='true')favorites.checked=true;
  if(params.get('q'))search.value=params.get('q');
  if(settings.has(params.get('setting')))setting.value=params.get('setting');
  if(statuses.has(params.get('status')))status.value=params.get('status');
+ if((params.get('project')==='none'||projectMap.has(params.get('project')))&&projectFilter.querySelector(`option[value="${CSS.escape(params.get('project'))}"]`))projectFilter.value=params.get('project');
  // The read-only public build never loads local drafts or creates editor controls.
  if(original.ownerEditing){
   try{
