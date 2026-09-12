@@ -1,0 +1,2762 @@
+{
+  "schema": "mp-model-library-v2",
+  "version": "5.12",
+  "title": "3D Model Library",
+  "categories": [
+    {
+      "id": "fpv",
+      "name": "FPV",
+      "intro": "Aircraft parts, camera hardware and the specialized pieces that make a build fit together."
+    },
+    {
+      "id": "printers",
+      "name": "Printers & machine parts",
+      "intro": "Tensioners, electronics packaging, ventilation and printer-specific tooling."
+    },
+    {
+      "id": "workshop",
+      "name": "Workshop & Work",
+      "intro": "Jigs, fixtures, measuring-tool storage and dust-extraction interfaces."
+    },
+    {
+      "id": "home",
+      "name": "Home & repair",
+      "intro": "Replacement fittings, useful mounts and targeted fixes for existing objects."
+    },
+    {
+      "id": "workspace",
+      "name": "PC & workspace",
+      "intro": "Hose routing, cable management and parts for the desk."
+    },
+    {
+      "id": "plants",
+      "name": "Plants & growing",
+      "intro": "Planters, drains and interfaces between printed parts and glass jars."
+    },
+    {
+      "id": "creative",
+      "name": "Creative & lighting",
+      "intro": "Stencils, decorative details and illuminated assemblies."
+    }
+  ],
+  "sets": [
+    {
+      "slug": "player1",
+      "title": "Player1",
+      "category": "fpv",
+      "summary": "Camera mounts, protective parts, chase-camera setups and the skirt system, organized around the Player1 platform.",
+      "kind": "Aircraft collection",
+      "subsets": [
+        {
+          "title": "Chase-camera setup",
+          "files": [
+            {
+              "name": "backPart1.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "goProChair_v2.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "landingGear.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "landingGearLightweight_v1.3mf",
+              "format": "3MF"
+            }
+          ]
+        },
+        {
+          "title": "Mounting & protective parts",
+          "files": [
+            {
+              "name": "DJI-Action-Cam-25-deg (1).stl",
+              "format": "STL"
+            },
+            {
+              "name": "GPFingerMount.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "Player1-Arm-Guard.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "Player1-Bumper (1)FLATTER.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "Player1-CamSpacer-Double-Hole-3mmMicro.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "Player1-DJI-Action-Cam-25-deg-Snap HOLYMOLYPaperclipMan.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "Player1-DJI-Action-Cam-25-deg-Snap.stl",
+              "format": "STL"
+            },
+            {
+              "name": "Player1-GPH9-15deg.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "armGuard.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "armGuard_v2.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "orcaMount.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1BlankMount.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1BonesMountFULL.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1MyAction2MountV3.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1PolarVistaAntennaMount.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1Skirt.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1VistaMount.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1_15deg_CHAIR.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1goProStandard.3mf",
+              "format": "3MF"
+            }
+          ]
+        },
+        {
+          "title": "Skirt system",
+          "files": [
+            {
+              "name": "Player1_Crossfire_and_Vista_MountSTL.stl",
+              "format": "STL"
+            },
+            {
+              "name": "player1CapPassThrough.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1SkirtFullFront.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1SkirtFullRear.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1SkirtFullRearImmortalT.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1SkirtFullRearWithDiversityELRS.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1SkirtFull_FrontLEFT_NoCapCenterPower.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1SkirtFull_FrontLEFT_NoCapFULL.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1SkirtFull_FrontLEFT_NoCapFrontLeftPower.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1SkirtFull_FrontLEFT_NoCapRearLeftPower.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1SkirtFull_FrontRIGHT_NoCapCenterPower.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1SkirtFull_FrontRIGHT_NoCapFULL.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1SkirtFull_FrontRIGHT_NoCapFrontRIGHTPower.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1SkirtFull_FrontRIGHT_NoCapRearRIGHTPower.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1SkirtFull_Front_WithCapCenterLeftPower.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1SkirtFull_Front_WithCapCenterRightPower.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1SkirtFull_Front_WithCapFrontLeftPower.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1SkirtFull_Front_WithCapFrontRightPower.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1SkirtFull_Front_WithCapRearLeftPower.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "player1SkirtFull_Front_WithCapRearRightPower.3mf",
+              "format": "3MF"
+            }
+          ]
+        },
+        {
+          "title": "P1 Action 2 camera mount",
+          "files": [
+            {
+              "name": "P1Action2_15deg.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "href": "projects/player1-sixs.html",
+          "title": "Player1: moving to 6S",
+          "relationship": "Platform build"
+        },
+        {
+          "href": "projects/fpv-builds.html",
+          "title": "LEGO-themed FPV build",
+          "relationship": "Platform build"
+        }
+      ],
+      "story": [
+        {
+          "heading": "Parts around a platform",
+          "text": "The Player1 set includes camera mounts, arm protection, chase-camera pieces and a modular skirt system. The skirt files cover different power-wire exits, capacitor arrangements and receiver/antenna configurations."
+        },
+        {
+          "heading": "Moving to 6S",
+          "text": "After losing an aircraft in Kauai, I planned a replacement around the Player1 frame and 6S power. My March 2022 build log sets out the priorities: a cleaner, stronger, simpler build with better power-to-weight."
+        },
+        {
+          "heading": "The LEGO edition",
+          "text": "The July 2022 build brought my interest in LEGO into a Player1 aircraft. BrockLeeFPV designed the frame, and WoodChuck FPV cut it. The build log follows the frame collaboration, component choices and assembly behind the colorful exterior."
+        }
+      ],
+      "credit": "Player1 frame design: BrockLeeFPV. Frame cutting: WoodChuck FPV. This parts collection includes adaptations and reference models.",
+      "image": {
+        "src": "assets/media/fpv-detail.webp",
+        "alt": "The LEGO-themed Player1 build.",
+        "caption": "Build photograph"
+      },
+      "sources": [
+        {
+          "id": "player1-sixs",
+          "url": "https://rotorbuilds.com/build/29069/",
+          "title": "Jerky'5 Build Back Better plan",
+          "date": "4 March 2022",
+          "summary": "A Player1 replacement build with a move to 6S and goals of cleaner, stronger, simpler packaging."
+        },
+        {
+          "id": "player1-lego",
+          "url": "https://rotorbuilds.com/build/29835",
+          "title": "BrockLeeFPV Player1 LEGO Edition",
+          "date": "14 July 2022",
+          "summary": "A LEGO-themed Player1 build, with the frame design credited to BrockLeeFPV and cutting to WoodChuck FPV."
+        }
+      ],
+      "file_count": 44,
+      "formats": [
+        "3MF",
+        "STL"
+      ]
+    },
+    {
+      "slug": "qav-cine3",
+      "title": "QAV Cine3",
+      "category": "fpv",
+      "summary": "Camera mounts, antenna mounting and the altered cine frame-related model, all for the same QAV aircraft.",
+      "kind": "Aircraft parts",
+      "subsets": [
+        {
+          "title": "QAV CIN3",
+          "files": [
+            {
+              "name": "QAVCin3VinstAntMount.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "QAVCineDJICamMountLEFT.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "QAVCineDJICamMountLEFT_15.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "QAVCineDJICamMountRIGHT.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "QAVCineDJICamMountRIGHT_15.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "QAV_Cine-DJI-Action-Cam-25-deg-Snap (1).3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "qav_cine_lite_ALTERED.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [
+        {
+          "heading": "The QAV camera setup",
+          "text": "These parts belong to one QAV aircraft. The set includes left and right camera mounts, alternate camera-angle versions, an antenna mount and the altered cine model."
+        }
+      ],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 7,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "woodchuck-fpv",
+      "title": "WoodChuck FPV",
+      "category": "fpv",
+      "summary": "Wasp, CineWasp and CineWasp v2 parts together: camera and antenna mounts, feet, bumpers and receiver-mount versions.",
+      "kind": "Aircraft collection",
+      "subsets": [
+        {
+          "title": "Wasp",
+          "files": [
+            {
+              "name": "WaspCapSideMount.3mf",
+              "format": "3MF"
+            }
+          ]
+        },
+        {
+          "title": "CineWasp",
+          "files": [
+            {
+              "name": "12x12Feet.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "AntennaMountwithHole.3mf",
+              "format": "3MF"
+            }
+          ]
+        },
+        {
+          "title": "CineWasp v2",
+          "files": [
+            {
+              "name": "CineWasp-v2-Bumper (1).stl",
+              "format": "STL"
+            },
+            {
+              "name": "CineWasp-v2-GoPro-Mount.stl",
+              "format": "STL"
+            },
+            {
+              "name": "nakedGoproBaseMount.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "v2CineWaspDualELRS_VTX_ANT.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "v2CineWaspDualELRS_VTX_ANT_V2.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [
+        {
+          "heading": "Around the WoodChuck aircraft",
+          "text": "The Wasp, CineWasp and CineWasp v2 parts cover capacitor and antenna mounting, feet, a bumper and camera mounting. The CineWasp v2 files include two combined ELRS/VTX antenna-mount versions."
+        }
+      ],
+      "credit": "Aircraft platforms: WoodChuck FPV.",
+      "image": null,
+      "sources": [
+        {
+          "id": "player1-lego",
+          "url": "https://rotorbuilds.com/build/29835",
+          "title": "BrockLeeFPV Player1 LEGO Edition",
+          "date": "14 July 2022",
+          "summary": "A LEGO-themed Player1 build, with the frame design credited to BrockLeeFPV and cutting to WoodChuck FPV."
+        }
+      ],
+      "file_count": 8,
+      "formats": [
+        "3MF",
+        "STL"
+      ]
+    },
+    {
+      "slug": "fpv-spacers",
+      "title": "FPV spacers",
+      "category": "fpv",
+      "summary": "M2 spacers in 2 mm, 2.5 mm and 4 mm versions.",
+      "kind": "Spacing hardware",
+      "subsets": [
+        {
+          "title": "model exports",
+          "files": [
+            {
+              "name": "m2-2.5mm.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "m2-2mm.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "m2-4mm.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [
+        {
+          "heading": "FPV hardware for the bench",
+          "text": "Three M2 spacer sizes for my FPV builds: 2 mm, 2.5 mm and 4 mm. The set keeps those hardware-spacing options together with the aircraft parts."
+        }
+      ],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 3,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "action-camera-mounts",
+      "title": "Action-camera mounts",
+      "category": "fpv",
+      "summary": "Camera-mount bodies and runners for the 5-inch iFlight setup.",
+      "kind": "Camera hardware",
+      "subsets": [
+        {
+          "title": "action Cam Mount",
+          "files": [
+            {
+              "name": "Body9.stl",
+              "format": "STL"
+            },
+            {
+              "name": "actionCamMountLRunner.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "actionCamMountMain.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "actionCamMountRRunner.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 4,
+      "formats": [
+        "3MF",
+        "STL"
+      ]
+    },
+    {
+      "slug": "action2",
+      "title": "DJI Action 2 mounts",
+      "category": "fpv",
+      "summary": "Action 2 mounting versions, including split body/face files and a stripped-back variant.",
+      "kind": "Camera hardware",
+      "subsets": [
+        {
+          "title": "mounts / action2",
+          "files": [
+            {
+              "name": "myAction2CamMountV1BODY.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "myAction2CamMountV1FACE.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "myAction2Mount v1.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "myAction2Mount v3 NAKED.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 4,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "elrs",
+      "title": "ELRS receiver holder",
+      "category": "fpv",
+      "summary": "The Happymodel ES900RX holder with the 20 x 20 mounting pattern identified in the file name.",
+      "kind": "Receiver mount",
+      "subsets": [
+        {
+          "title": "elrs",
+          "files": [
+            {
+              "name": "Happymodel_ES900RX_20x20_3mmHOLESholder.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 1,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "flywoo-explorer",
+      "title": "Flywoo Explorer",
+      "category": "fpv",
+      "summary": "Left and right Polar Nano camera mounts for the Explorer.",
+      "kind": "Aircraft parts",
+      "subsets": [
+        {
+          "title": "flywoo Explorer",
+          "files": [
+            {
+              "name": "polarNanoMountLEFT.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "polarNanoMountRIGHT.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 2,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "fpv-bench-tools",
+      "title": "FPV bench experiments",
+      "category": "fpv",
+      "summary": "Dremel and prop-cutter model files from the experimental FPV tooling folder.",
+      "kind": "Experimental tooling",
+      "subsets": [
+        {
+          "title": "for Science",
+          "files": [
+            {
+              "name": "dremel.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "dremelPropCutter.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "Experimental tooling models; no operating speed or safety rating is claimed.",
+      "image": null,
+      "sources": [],
+      "file_count": 2,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "fpv-mounts",
+      "title": "FPV electronics & mounting",
+      "category": "fpv",
+      "summary": "Stack risers, board protectors and capacitor-mount variants for the FPV bench.",
+      "kind": "Mounts & protection",
+      "subsets": [
+        {
+          "title": "mounts",
+          "files": [
+            {
+              "name": "20x20Riser.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "20x20_Spacer3mm.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "30x30Protection.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "NBDAIOV2WireSideProtector.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "bonesMountDRPM5.stl",
+              "format": "STL"
+            },
+            {
+              "name": "capToFC.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "capToFC_NBD_AIOv2_.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "capToFC_t-motor_BigFET.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "capToFC_v2.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "capToFC_v2_13mmD.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "spacer (3).stl",
+              "format": "STL"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 11,
+      "formats": [
+        "3MF",
+        "STL"
+      ]
+    },
+    {
+      "slug": "freybott",
+      "title": "Freybott",
+      "category": "fpv",
+      "summary": "Camera, digital video unit, antenna and XT30 mounting parts in one aircraft collection.",
+      "kind": "Aircraft parts",
+      "subsets": [
+        {
+          "title": "freybott",
+          "files": [
+            {
+              "name": "03FreybottCamMount.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "03UnitMount.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "FreybottDipoleAntMountLITE v1.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "M2AUO3Mount.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "freybottVTXAntHolder.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "nakedVistaConduit.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "xt30Mount.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 7,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "jerkys-lesson",
+      "title": "Jerky's Lesson",
+      "category": "fpv",
+      "summary": "Hex-standoff and nano-camera mounts, including left/right and 20 mm variants.",
+      "kind": "Aircraft parts",
+      "subsets": [
+        {
+          "title": "jerkys Lesson",
+          "files": [
+            {
+              "name": "hexStandoffNanoCamMount.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "standoff20mmCamMountHexLEFT.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "standoff20mmCamMountHexRIGHT.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "standoffCamMountHexLEFT.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "standoffCamMountHexRIGHT.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 5,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "air-unit-mount",
+      "title": "Naked Air Unit mount",
+      "category": "fpv",
+      "summary": "A mounting model for a stripped-down digital Air Unit.",
+      "kind": "Electronics mount",
+      "subsets": [
+        {
+          "title": "air Unit Mount",
+          "files": [
+            {
+              "name": "nakedAirUnitMount.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 1,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "squirt",
+      "title": "Shendrones Squirt",
+      "category": "fpv",
+      "summary": "Action 2 snap-mount and blank-mount files for the Squirt platform.",
+      "kind": "Aircraft parts",
+      "subsets": [
+        {
+          "title": "squirt",
+          "files": [
+            {
+              "name": "DJI_ACTION_2_SNAPP.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "blankMount.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "href": "projects/shendrones-squirt.html",
+          "title": "Shendrones Squirt cinewhoop",
+          "relationship": "Platform build"
+        }
+      ],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 2,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "qidi-spring-tensioner",
+      "title": "Qidi spring belt tensioner",
+      "category": "printers",
+      "summary": "The body and pusher models for the adjustable spring tensioner.",
+      "kind": "Mechanism",
+      "subsets": [
+        {
+          "title": "spring belt tensioner",
+          "files": [
+            {
+              "name": "AdjustableSpringTensioner - Body.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "AdjustableSpringTensioner - Pusher.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "href": "projects/qidi-tensioner.html",
+          "title": "Qidi spring belt tensioner",
+          "relationship": "Project"
+        }
+      ],
+      "story": [
+        {
+          "heading": "Keep the spring. Add adjustment.",
+          "text": "The housing and pusher reuse the Qidi Plus4 stock tensioner spring, adding screw adjustment to the spring load. I turned the concept into printable parts and shared the implementation with printing, hardware and installation guidance."
+        }
+      ],
+      "credit": "Concept and request: stew675 and spooknik. Printable implementation and original instructions: Michael Pytlowany / Jerky_FPV.",
+      "image": {
+        "src": "assets/media/qidi-source.webp",
+        "alt": "The Qidi adjustable spring tensioner.",
+        "caption": "Project photograph"
+      },
+      "sources": [],
+      "file_count": 2,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "effzero-reference",
+      "title": "EffZero assembly references",
+      "category": "printers",
+      "summary": "Fusion and STEP assembly references kept separate from the custom M8P parts.",
+      "kind": "Assembly references",
+      "subsets": [
+        {
+          "title": "assembly references (filed under Holiday Decorations)",
+          "files": [
+            {
+              "name": "ZeroEffs_assembly_241108 (1) v1.f3d",
+              "format": "F3D"
+            },
+            {
+              "name": "ZeroEffs_assembly_241108 (1) v2.step",
+              "format": "STEP"
+            }
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "href": "projects/effzero.html",
+          "title": "EffZero: the build and the parts",
+          "relationship": "Platform build"
+        }
+      ],
+      "story": [],
+      "credit": "Assembly reference geometry. The underlying printer design is not presented as an original design by Michael Pytlowany.",
+      "image": null,
+      "sources": [],
+      "file_count": 2,
+      "formats": [
+        "F3D",
+        "STEP"
+      ]
+    },
+    {
+      "slug": "effzero-electronics",
+      "title": "EffZero electronics & display mounts",
+      "category": "printers",
+      "summary": "M8P deck panels, a mezzanine spacer and the TFT-to-skirt bracket.",
+      "kind": "Printer parts",
+      "subsets": [
+        {
+          "title": "electronics decks and display mounts",
+          "files": [
+            {
+              "name": "45mm Mezzanine spacer.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "M8P with Mount Deck Panel.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "M8P with Rear Mount Deck Panel.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "TFT to skirt bracket.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "href": "projects/effzero.html",
+          "title": "EffZero: the build and the parts",
+          "relationship": "Project"
+        }
+      ],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 4,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "effzero-foot",
+      "title": "EffZero foot riser",
+      "category": "printers",
+      "summary": "The extended guitar-foot riser block from the EffZero collection.",
+      "kind": "Printer part",
+      "subsets": [
+        {
+          "title": "feet and risers",
+          "files": [
+            {
+              "name": "Extended Guitar Foot Riser Block.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "href": "projects/effzero.html",
+          "title": "EffZero: the build and the parts",
+          "relationship": "Project"
+        }
+      ],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 1,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "effzero-skirts",
+      "title": "EffZero skirts & trim",
+      "category": "printers",
+      "summary": "M8P skirt and trim exports from the EffZero parts collection.",
+      "kind": "Printer parts",
+      "subsets": [
+        {
+          "title": "M8P skirts and trim",
+          "files": [
+            {
+              "name": "All Skirts-M8P.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "All Trim-M8P.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "href": "projects/effzero.html",
+          "title": "EffZero: the build and the parts",
+          "relationship": "Project"
+        }
+      ],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 2,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "idex-alignment",
+      "title": "IDEX alignment tools",
+      "category": "printers",
+      "summary": "Camera-calibration and linear-rail jig models.",
+      "kind": "Calibration tools",
+      "subsets": [
+        {
+          "title": "calibration and alignment tools",
+          "files": [
+            {
+              "name": "CameraCalibJig.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "LinearRailJig.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 2,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "qidi-relay-mounts",
+      "title": "Qidi SSR mounts",
+      "category": "printers",
+      "summary": "Mounting-plate versions for heat-sink, low-profile and tab configurations.",
+      "kind": "Configuration variants",
+      "subsets": [
+        {
+          "title": "relay-mount configurations",
+          "files": [
+            {
+              "name": "Mounting Plate w Heat Sink.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "Mounting Plate w Low-pro heat sink.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "Mounting Plate w tab wo Heat Sink.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "Mounting Plate wo tab wo Heat Sink.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 4,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "qidi-tensioner-earlier",
+      "title": "Qidi tensioner: earlier versions",
+      "category": "printers",
+      "summary": "Mount, insert and short-insert files from the earlier belt-tensioner folder.",
+      "kind": "Development files",
+      "subsets": [
+        {
+          "title": "earlier tensioner exports",
+          "files": [
+            {
+              "name": "Insert.3mf",
+              "format": "3MF",
+              "variant": "QP4/Belt Tensioners/v1"
+            },
+            {
+              "name": "Insert.3mf",
+              "format": "3MF",
+              "variant": "QP4/Belt Tensioners/v1/models"
+            },
+            {
+              "name": "Mount.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "ShortInsert.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "href": "projects/qidi-tensioner.html",
+          "title": "Qidi spring belt tensioner",
+          "relationship": "Platform build"
+        }
+      ],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 4,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "extruder-knob",
+      "title": "Voron decorative extruder knob",
+      "category": "printers",
+      "summary": "The Christmas-themed G2SA knob and its insert files.",
+      "kind": "Printer detail",
+      "subsets": [
+        {
+          "title": "decorative extruder knob",
+          "files": [
+            {
+              "name": "christmasKnob.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "christmasKnob.stl",
+              "format": "STL"
+            },
+            {
+              "name": "instert1.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "instert2.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "instert3.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 5,
+      "formats": [
+        "3MF",
+        "STL"
+      ]
+    },
+    {
+      "slug": "voron-v0-exhaust",
+      "title": "Voron V0.2 exhaust parts",
+      "category": "printers",
+      "summary": "Fan-to-hose interfaces and a top-hat plate from the V0.2 collection.",
+      "kind": "Ventilation parts",
+      "subsets": [
+        {
+          "title": "exhaust hardware",
+          "files": [
+            {
+              "name": "6010_to_2inchHose_p1.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "6010_to_2inchHose_p2.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "6010_to_2inchHose_p3.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "6010to1_7_8_hose v1.stl",
+              "format": "STL"
+            },
+            {
+              "name": "6010to1_7_8_hose v2.stl",
+              "format": "STL"
+            },
+            {
+              "name": "magPlate_to_topHat_MID.stl",
+              "format": "STL"
+            }
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "href": "projects/voron-v0.html",
+          "title": "Voron V0.2 build",
+          "relationship": "Platform build"
+        }
+      ],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 6,
+      "formats": [
+        "3MF",
+        "STL"
+      ]
+    },
+    {
+      "slug": "voron-nozzle-holder",
+      "title": "Voron V0.2 nozzle holder",
+      "category": "printers",
+      "summary": "The three-nozzle Revo storage model.",
+      "kind": "Tool storage",
+      "subsets": [
+        {
+          "title": "nozzle storage",
+          "files": [
+            {
+              "name": "3x_revoNozzleHolder.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "href": "projects/voron-v0.html",
+          "title": "Voron V0.2 build",
+          "relationship": "Platform build"
+        }
+      ],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 1,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "caliper-stand",
+      "title": "Caliper stand",
+      "category": "workshop",
+      "summary": "Body and stand files for a caliper holder.",
+      "kind": "Model set",
+      "subsets": [
+        {
+          "title": "body and stand",
+          "files": [
+            {
+              "name": "body.stl",
+              "format": "STL"
+            },
+            {
+              "name": "stand.stl",
+              "format": "STL"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 2,
+      "formats": [
+        "STL"
+      ]
+    },
+    {
+      "slug": "reference-caliper-stand",
+      "title": "Caliper stand reference",
+      "category": "workshop",
+      "summary": "A separately kept stand model from the downloaded reference collection.",
+      "kind": "Reference model",
+      "subsets": [
+        {
+          "title": "3D/Downloaded/caliperStand/2/files",
+          "files": [
+            {
+              "name": "Stand.stl",
+              "format": "STL"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "Reference model from a downloaded collection. Creator attribution has not yet been established.",
+      "image": null,
+      "sources": [],
+      "file_count": 1,
+      "formats": [
+        "STL"
+      ]
+    },
+    {
+      "slug": "cnc-belt-holder",
+      "title": "CNC belt holder",
+      "category": "workshop",
+      "summary": "Clip and holder models in two sizes, kept alongside GT2 belt reference geometry.",
+      "kind": "Fixture & references",
+      "subsets": [
+        {
+          "title": "CNC/beltHolder",
+          "files": [
+            {
+              "name": "GT2 Belt 6mm Section.stp",
+              "format": "STP"
+            },
+            {
+              "name": "GT2 Belt 6mm x 40mm.stp",
+              "format": "STP"
+            },
+            {
+              "name": "bobsBeltClipCLIP.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "bobsBeltClipLARGE.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "bobsBeltClipSMALL.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "Includes GT2 belt reference geometry alongside the holder and clip files.",
+      "image": null,
+      "sources": [],
+      "file_count": 5,
+      "formats": [
+        "3MF",
+        "STP"
+      ]
+    },
+    {
+      "slug": "door-hinge-router-jig",
+      "title": "Door-hinge router jig",
+      "category": "workshop",
+      "summary": "A routing-jig model for door-hinge work.",
+      "kind": "Jig",
+      "subsets": [
+        {
+          "title": "Door-hinge router jig",
+          "files": [
+            {
+              "name": "doorHingeRouterJig.stl",
+              "format": "STL"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": {
+        "src": "assets/model-previews/door-hinge-router-jig.webp",
+        "alt": "Rendered geometry from the door-hinge router jig.",
+        "caption": "Model render"
+      },
+      "sources": [],
+      "file_count": 1,
+      "formats": [
+        "STL"
+      ]
+    },
+    {
+      "slug": "planer-adapter",
+      "title": "Planer vacuum adapter",
+      "category": "workshop",
+      "summary": "The 76-to-45 mm adapter identified in the planer-vacuum file name.",
+      "kind": "Extraction adapter",
+      "subsets": [
+        {
+          "title": "planer adapter",
+          "files": [
+            {
+              "name": "planerVacAdapter76_45mm.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 1,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "vacuum-cap",
+      "title": "Vacuum cap",
+      "category": "workshop",
+      "summary": "The 2_5cap model from the vacuum-accessory collection.",
+      "kind": "Extraction accessory",
+      "subsets": [
+        {
+          "title": "cap",
+          "files": [
+            {
+              "name": "2_5cap.stl",
+              "format": "STL"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 1,
+      "formats": [
+        "STL"
+      ]
+    },
+    {
+      "slug": "vacuum-y",
+      "title": "Vacuum Y connector",
+      "category": "workshop",
+      "summary": "DustStopper Y-connector model files, including the metric-labelled version.",
+      "kind": "Extraction adapter",
+      "subsets": [
+        {
+          "title": "Y connector",
+          "files": [
+            {
+              "name": "dustStopper_Y_(metric).stl",
+              "format": "STL"
+            },
+            {
+              "name": "dustStopper_Y_.stl",
+              "format": "STL"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 2,
+      "formats": [
+        "STL"
+      ]
+    },
+    {
+      "slug": "work",
+      "title": "Work",
+      "category": "workshop",
+      "summary": "Workplace fixtures: a fiducial-finder holder, marker-and-bit holder, and Multicam grounding-module model.",
+      "kind": "Workplace fixtures",
+      "subsets": [
+        {
+          "title": "workplace fixtures",
+          "files": [
+            {
+              "name": "fruducialFinderHolder.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "markerAndBitHolder.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "multiCamGroundingModule.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [
+        {
+          "heading": "Fixtures around the work",
+          "text": "A fiducial-finder holder, a marker-and-bit holder, and a Multicam grounding-module model make up this set of workplace fixtures."
+        }
+      ],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 3,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "wardrobe-fitting",
+      "title": "Wardrobe replacement fitting",
+      "category": "home",
+      "summary": "The corner fitting and latch from the PETG wardrobe repair.",
+      "kind": "Reverse-engineered repair",
+      "subsets": [
+        {
+          "title": "model exports",
+          "files": [
+            {
+              "name": "adjustableTopCorner.stl",
+              "format": "STL"
+            },
+            {
+              "name": "adjustableTopCornerLATCH.stl",
+              "format": "STL"
+            }
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "href": "projects/wardrobe-repair.html",
+          "title": "Keep the wardrobe. Replace the fitting.",
+          "relationship": "Project"
+        }
+      ],
+      "story": [
+        {
+          "heading": "Repair the fitting, keep the wardrobe",
+          "text": "A cracked plastic joint left an otherwise usable wardrobe in need of one replacement component. I reverse-engineered the fitting in Fusion and printed a PETG replacement to meet the existing rails."
+        },
+        {
+          "heading": "From the damaged part to the replacement",
+          "text": "The corner fitting and latch are the model set for this repair. The project photographs show the damaged original and the purple replacement installed on the wardrobe rails."
+        }
+      ],
+      "credit": "",
+      "image": {
+        "src": "assets/media/wardrobe-replacement.webp",
+        "alt": "The printed wardrobe fitting installed on the existing rails.",
+        "caption": "Installed fitting"
+      },
+      "sources": [],
+      "file_count": 2,
+      "formats": [
+        "STL"
+      ]
+    },
+    {
+      "slug": "threaded-jar-lid",
+      "title": "Threaded jar lid",
+      "category": "home",
+      "summary": "The test and complete lid models from the reverse-engineered jar-thread project.",
+      "kind": "Reverse-engineered fit",
+      "subsets": [
+        {
+          "title": "test exports",
+          "files": [
+            {
+              "name": "threadedLidTest1.stl",
+              "format": "STL"
+            },
+            {
+              "name": "threadedLidTestComplete.stl",
+              "format": "STL"
+            }
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "href": "projects/threaded-jar-lid.html",
+          "title": "A lid that starts with the thread",
+          "relationship": "Project"
+        }
+      ],
+      "story": [
+        {
+          "heading": "Start at the mating surface",
+          "text": "This project starts with an existing jar rather than a free-form lid. I reverse-engineered its thread, recorded a 1/4-inch pitch and printed the translucent-blue prototype shown in the build story."
+        },
+        {
+          "heading": "Test piece and complete lid",
+          "text": "The model set contains the thread-test version and the complete lid. The project photographs show the translucent-blue prototype fitted to the existing jar."
+        }
+      ],
+      "credit": "",
+      "image": {
+        "src": "assets/media/threaded-lid.webp",
+        "alt": "The translucent-blue prototype fitted to the existing jar.",
+        "caption": "Prototype photograph"
+      },
+      "sources": [],
+      "file_count": 2,
+      "formats": [
+        "STL"
+      ]
+    },
+    {
+      "slug": "battery-bin-riser",
+      "title": "Battery-bin riser",
+      "category": "home",
+      "summary": "Two numbered riser exports for the battery-bin setup.",
+      "kind": "Model set",
+      "subsets": [
+        {
+          "title": "numbered exports",
+          "files": [
+            {
+              "name": "battBinRiser_1.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "battBinRiser_2.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 2,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "closet-hook",
+      "title": "Closet-door hook",
+      "category": "home",
+      "summary": "A hook model for a closet door.",
+      "kind": "Repair & utility",
+      "subsets": [
+        {
+          "title": "closet-door hook",
+          "files": [
+            {
+              "name": "closetDoorHook_v1.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 1,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "clothes-dividers",
+      "title": "Clothes dividers",
+      "category": "home",
+      "summary": "Blank and personalized divider versions in one set.",
+      "kind": "Variants",
+      "subsets": [
+        {
+          "title": "blank and lettered versions",
+          "files": [
+            {
+              "name": "divider1_25.stl",
+              "format": "STL",
+              "variant": "clothesDivider/Blank"
+            },
+            {
+              "name": "divider1_25.stl",
+              "format": "STL",
+              "variant": "clothesDivider/slaby"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 2,
+      "formats": [
+        "STL"
+      ]
+    },
+    {
+      "slug": "vent-adapter",
+      "title": "Hose-to-window vent",
+      "category": "home",
+      "summary": "Hose-side and window-side interface models.",
+      "kind": "Adapter set",
+      "subsets": [
+        {
+          "title": "Vent",
+          "files": [
+            {
+              "name": "HoseSide.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "WindowSide.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 2,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "humidifier-drain",
+      "title": "Humidifier drain interface",
+      "category": "home",
+      "summary": "An adapter model connecting the humidifier to an access drain.",
+      "kind": "Adapter",
+      "subsets": [
+        {
+          "title": "humidifier interface",
+          "files": [
+            {
+              "name": "humidifierToAccessDrain.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 1,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "leapfrog-stand",
+      "title": "LeapFrog stand",
+      "category": "home",
+      "summary": "The stand model from the LeapFrog collection.",
+      "kind": "Stand",
+      "subsets": [
+        {
+          "title": "model exports",
+          "files": [
+            {
+              "name": "Stand v1.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 1,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "mini-trash-can",
+      "title": "Mini trash can",
+      "category": "home",
+      "summary": "The v1 container model from the mini-trash-can collection.",
+      "kind": "Utility object",
+      "subsets": [
+        {
+          "title": "model exports",
+          "files": [
+            {
+              "name": "v1.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 1,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "monitor-angle-mount",
+      "title": "Monitor angle mount",
+      "category": "home",
+      "summary": "Two 20-degree monitor-mount versions from the baby-monitor folder.",
+      "kind": "Mount versions",
+      "subsets": [
+        {
+          "title": "Monitor angle-mount exports",
+          "files": [
+            {
+              "name": "monitor20Deg.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "monitor20Deg_v2.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 2,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "oui-jar-lid",
+      "title": "Oui jar lid",
+      "category": "home",
+      "summary": "A separate lid model for an Oui jar.",
+      "kind": "Jar accessory",
+      "subsets": [
+        {
+          "title": "model exports",
+          "files": [
+            {
+              "name": "lid.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 1,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "shower-accessories",
+      "title": "Shower accessories",
+      "category": "home",
+      "summary": "Clips, a clamp, razor hook and scrubber hooks, with the supporting test exports retained in the file list.",
+      "kind": "Household parts",
+      "subsets": [
+        {
+          "title": "accessory exports",
+          "files": [
+            {
+              "name": "Body5.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "Cube.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "Nozzle temperature test.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "blankClip.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "clamp.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "clip.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "razorHook.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "scrubberHooks.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 8,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "squeegee-hook",
+      "title": "Squeegee-on-tub hook",
+      "category": "home",
+      "summary": "A hook model for keeping a squeegee at the tub.",
+      "kind": "Repair & utility",
+      "subsets": [
+        {
+          "title": "squeegee hook",
+          "files": [
+            {
+              "name": "squeegeeOnTubHook.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 1,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "window-vent",
+      "title": "Window exhaust assembly",
+      "category": "home",
+      "summary": "Window, fan-shroud and flex-pipe connections collected as one ventilation set.",
+      "kind": "Assembly parts",
+      "subsets": [
+        {
+          "title": "Window Vent",
+          "files": [
+            {
+              "name": "FanShroudToFan.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "FanShroudToFlexPipe.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "Window.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "WindowToFanShroud.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 4,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "aio-hose-spacers",
+      "title": "AIO hose spacers",
+      "category": "workspace",
+      "summary": "A range of hose-divider sizes, with plain and LED-accommodating variants.",
+      "kind": "Sizing variants",
+      "subsets": [
+        {
+          "title": "AIO hose spacers",
+          "files": [
+            {
+              "name": "iCueHoseSpacers10_5mm.stl",
+              "format": "STL"
+            },
+            {
+              "name": "iCueHoseSpacers10_5mmPlusLED.stl",
+              "format": "STL"
+            },
+            {
+              "name": "iCueHoseSpacers23_5mmPlusLED.stl",
+              "format": "STL"
+            },
+            {
+              "name": "iCueHoseSpacers25_5mm.stl",
+              "format": "STL"
+            },
+            {
+              "name": "iCueHoseSpacers28mmPlusLED.stl",
+              "format": "STL"
+            },
+            {
+              "name": "iCueHoseSpacers32_5mm.stl",
+              "format": "STL"
+            },
+            {
+              "name": "iCueHoseSpacers35ishmm.stl",
+              "format": "STL"
+            },
+            {
+              "name": "iCueHoseSpacers37_5mm.stl",
+              "format": "STL"
+            },
+            {
+              "name": "iCueHoseSpacers37_5mmPlusLED.stl",
+              "format": "STL"
+            },
+            {
+              "name": "iCueHoseSpacers40_5mm.stl",
+              "format": "STL"
+            },
+            {
+              "name": "iCueHoseSpacers40_5mmPlusLED.stl",
+              "format": "STL"
+            },
+            {
+              "name": "iCueHoseSpacers42_5mm.stl",
+              "format": "STL"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 12,
+      "formats": [
+        "STL"
+      ]
+    },
+    {
+      "slug": "pump-cover",
+      "title": "AORUS pump-cover detail",
+      "category": "workspace",
+      "summary": "The decorative AORUS eagle model from the pump-cover folder.",
+      "kind": "Decorative PC part",
+      "subsets": [
+        {
+          "title": "decorative pump cover",
+          "files": [
+            {
+              "name": "aorusEagle.stl",
+              "format": "STL"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "The AORUS eagle is a brand motif; this entry concerns the decorative PC component, not ownership of that graphic.",
+      "image": null,
+      "sources": [],
+      "file_count": 1,
+      "formats": [
+        "STL"
+      ]
+    },
+    {
+      "slug": "desk-passthrough",
+      "title": "Desk cable passthrough",
+      "category": "workspace",
+      "summary": "Two cable-passthrough exports labelled for a 55 mm interface.",
+      "kind": "Cable management",
+      "subsets": [
+        {
+          "title": "model exports",
+          "files": [
+            {
+              "name": "cablePassthrough55mm.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "cablePassthrough55mmOD.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 2,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "desk-organizer",
+      "title": "Desk organizer & caliper stand",
+      "category": "workspace",
+      "summary": "A desk-organizer model with an integrated caliper stand.",
+      "kind": "Organizer",
+      "subsets": [
+        {
+          "title": "desk Organizer With Caliper Stand",
+          "files": [
+            {
+              "name": "deskOrganizerWithCaliperStand.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 1,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "keyboard-drawer",
+      "title": "Keyboard drawer",
+      "category": "workspace",
+      "summary": "Left, right and center components, together with the later v2 file.",
+      "kind": "Workspace parts",
+      "subsets": [
+        {
+          "title": "earlier components and v2",
+          "files": [
+            {
+              "name": "Center.stl",
+              "format": "STL"
+            },
+            {
+              "name": "Left.stl",
+              "format": "STL"
+            },
+            {
+              "name": "Right.stl",
+              "format": "STL"
+            },
+            {
+              "name": "v2.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": {
+        "src": "assets/model-previews/keyboard-drawer.webp",
+        "alt": "Rendered geometry from the keyboard drawer model.",
+        "caption": "Model render"
+      },
+      "sources": [],
+      "file_count": 4,
+      "formats": [
+        "3MF",
+        "STL"
+      ]
+    },
+    {
+      "slug": "african-violet",
+      "title": "African violet planter",
+      "category": "plants",
+      "summary": "A planter body and separate drain for the African violet planter.",
+      "kind": "Model set",
+      "subsets": [
+        {
+          "title": "planter and drain",
+          "files": [
+            {
+              "name": "drain.stl",
+              "format": "STL"
+            },
+            {
+              "name": "main.stl",
+              "format": "STL"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": {
+        "src": "assets/model-previews/african-violet-planter.webp",
+        "alt": "Rendered geometry from the African violet planter model.",
+        "caption": "Model render"
+      },
+      "sources": [],
+      "file_count": 2,
+      "formats": [
+        "STL"
+      ]
+    },
+    {
+      "slug": "jar-terrariums",
+      "title": "Jar terrariums",
+      "category": "plants",
+      "summary": "Threaded and unthreaded jar interfaces, different sizes and matching drain pieces.",
+      "kind": "Planters & interfaces",
+      "subsets": [
+        {
+          "title": "threaded and unthreaded interfaces",
+          "files": [
+            {
+              "name": "109mmJarGreenhouse.stl",
+              "format": "STL"
+            },
+            {
+              "name": "115mmJarGreenhouse.stl",
+              "format": "STL"
+            },
+            {
+              "name": "121mmJarGreenhouse.stl",
+              "format": "STL"
+            },
+            {
+              "name": "70mmJar.stl",
+              "format": "STL"
+            },
+            {
+              "name": "90mmJarGreenhouse.stl",
+              "format": "STL"
+            },
+            {
+              "name": "largeJarGreenhouse.stl",
+              "format": "STL"
+            },
+            {
+              "name": "oliveJarGreenhouse.stl",
+              "format": "STL"
+            },
+            {
+              "name": "smallJarGreenhouse.stl",
+              "format": "STL",
+              "note": "Exact file-content match to 70mmJar.stl; alternative archive name."
+            },
+            {
+              "name": "119mmclosedTerrarium(terraJar).stl",
+              "format": "STL"
+            },
+            {
+              "name": "119mmclosedTerrarium(terraJar)Drain.stl",
+              "format": "STL"
+            },
+            {
+              "name": "70mmclosedTerrarium(terraJar).stl",
+              "format": "STL"
+            },
+            {
+              "name": "70mmclosedTerrarium(terraJar)Drain.stl",
+              "format": "STL"
+            },
+            {
+              "name": "87mmclosedTerrarium(ecoJar).stl",
+              "format": "STL"
+            },
+            {
+              "name": "87mmclosedTerrarium(ecoJar)Drain.stl",
+              "format": "STL"
+            },
+            {
+              "name": "selfRegulatingGreenhouseDish.stl",
+              "format": "STL"
+            },
+            {
+              "name": "selfRegulatingGreenhouseInside.stl",
+              "format": "STL"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 16,
+      "formats": [
+        "STL"
+      ]
+    },
+    {
+      "slug": "mcm-stencil",
+      "title": "MCM cutout stencil",
+      "category": "creative",
+      "summary": "The MCM Woosh stencil files, including the extensionless 3MF.",
+      "kind": "Stencil",
+      "subsets": [
+        {
+          "title": "MCM cutouts",
+          "files": [
+            {
+              "name": "MCM Woosh",
+              "format": "3MF",
+              "note": "Extensionless 3MF; inch units verified."
+            },
+            {
+              "name": "MCM Woosh 1.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "The inspected extensionless MCM Woosh file is a 3MF model with inch units.",
+      "image": null,
+      "sources": [],
+      "file_count": 2,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "monstera-stencil",
+      "title": "Monstera stencil",
+      "category": "creative",
+      "summary": "A leaf-themed stencil model from the Alana collection.",
+      "kind": "Stencil",
+      "subsets": [
+        {
+          "title": "Monstera",
+          "files": [
+            {
+              "name": "Monstera1.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 1,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "moon-lamp",
+      "title": "Moon lamp housing",
+      "category": "creative",
+      "summary": "Main housing, access door and an earlier version of the lamp model.",
+      "kind": "Housing",
+      "subsets": [
+        {
+          "title": "main, door and earlier export",
+          "files": [
+            {
+              "name": "moonLamp_DOOR_v2.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "moonLamp_MAIN_v2.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "moonLamp_v1.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": {
+        "src": "assets/model-previews/moon-lamp.webp",
+        "alt": "Rendered geometry from the moon lamp housing.",
+        "caption": "Model render"
+      },
+      "sources": [],
+      "file_count": 3,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "revo-ornaments",
+      "title": "Revo-themed ornaments",
+      "category": "creative",
+      "summary": "RevoHF ornament files with two hook variations.",
+      "kind": "Decorative models",
+      "subsets": [
+        {
+          "title": "model exports",
+          "files": [
+            {
+              "name": "RevoHF.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "RevoHF_Hook1.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "RevoHF_Hook2.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 3,
+      "formats": [
+        "3MF"
+      ]
+    },
+    {
+      "slug": "viggo",
+      "title": "Viggo, Wesley & Skadi illuminated names",
+      "category": "creative",
+      "summary": "Three illuminated-name builds with letter bodies, diffusers, bases, locating parts and saved print projects.",
+      "kind": "Illuminated name assemblies",
+      "subsets": [
+        {
+          "title": "Viggo illuminated letters",
+          "files": [
+            {
+              "name": "base - 1.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "base - 2.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "base - 3.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "base - 4.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "mcu - Door.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "V-Diffuser.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "g1-Diffuser.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "g2-Diffuser.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "i-Diffuser.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "o-Diffuser.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "V-Body.3mf",
+              "format": "3MF",
+              "note": "Full multi-plate print project; same unpacked payload as the other project copy."
+            },
+            {
+              "name": "Viggo.3mf",
+              "format": "3MF",
+              "note": "Full multi-plate print project; same unpacked payload as the other project copy."
+            },
+            {
+              "name": "g1-Body.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "g2-Body.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "i-Body.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "o-Body.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "10mm Set Pin.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "5mm Set Pin.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "8mm Set Pin.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "V - Set Pin.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "i - Set Pin.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "throughPin.3mf",
+              "format": "3MF"
+            }
+          ]
+        },
+        {
+          "title": "Wesley illuminated letters",
+          "files": [
+            {
+              "name": "body_W.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "body_e1.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "body_e2.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "body_l.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "body_s.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "body_y.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "bottom_1.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "bottom_2.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "bottom_3.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "diffuser_W.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "diffuser_e1.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "diffuser_e2.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "diffuser_l.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "diffuser_s.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "diffuser_y.3mf",
+              "format": "3MF"
+            }
+          ]
+        },
+        {
+          "title": "Skadi name lamp",
+          "files": [
+            {
+              "name": "Skadi.3mf",
+              "format": "3MF",
+              "note": "Saved print project for the complete name lamp."
+            },
+            {
+              "name": "Skadi v12_Skadi v12_5405 QTPy ESP32 C3.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "Skadi v12_Skadi v12_ACenter.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "Skadi v12_Skadi v12_Backer.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "Skadi v12_Skadi v12_DCenter.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "Skadi v12_Skadi v12_Diffuser.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "Skadi v12_Skadi v12_Limit to Button.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "Skadi v12_Skadi v12_Main.3mf",
+              "format": "3MF"
+            },
+            {
+              "name": "Skadi v12_Skadi v12_QT PY Mount.3mf",
+              "format": "3MF"
+            }
+          ]
+        }
+      ],
+      "projects": [],
+      "story": [
+        {
+          "heading": "Letters, light and assembly",
+          "text": "The Viggo, Wesley and Skadi builds collect their letter bodies, diffusers, base pieces, locating parts and electronics mounts in one illuminated-name family. Saved print projects accompany the individual component files."
+        }
+      ],
+      "credit": "",
+      "image": null,
+      "sources": [],
+      "file_count": 46,
+      "formats": [
+        "3MF"
+      ]
+    }
+  ],
+  "rotorbuilds": [
+    {
+      "id": "nazgul",
+      "url": "https://rotorbuilds.com/build/28480",
+      "title": "Jerky'5 Nazgul5",
+      "date": "10 November 2021",
+      "summary": "My first build and first FPV experience. The log reflects on the motor choice and a future move toward 6S."
+    },
+    {
+      "id": "player1-sixs",
+      "url": "https://rotorbuilds.com/build/29069/",
+      "title": "Jerky'5 Build Back Better plan",
+      "date": "4 March 2022",
+      "summary": "A Player1 replacement build with a move to 6S and goals of cleaner, stronger, simpler packaging."
+    },
+    {
+      "id": "player1-lego",
+      "url": "https://rotorbuilds.com/build/29835",
+      "title": "BrockLeeFPV Player1 LEGO Edition",
+      "date": "14 July 2022",
+      "summary": "A LEGO-themed Player1 build, with the frame design credited to BrockLeeFPV and cutting to WoodChuck FPV."
+    }
+  ]
+}
